@@ -1,3 +1,12 @@
+# Group Members
+01. Pasan Ranaweera - Group Leader
+02. Bumeega Bentharavithana - member
+03. Avishka Hirushan - member
+04. Upeka - member
+05. Gavesh Tharuka - member
+
+
+
 # smartcity_mariadb_sql
 This project presents a comprehensive database performance tuning exercise conducted on a municipal management system implemented in MariaDB. The database models operational domains such as employee management, departmental structures, infrastructure development (roads, waste, drainage), and customer care complaint handling. A set of ten complex SQL queries—covering operations including set difference, inner joins, right outer joins, full outer joins (via UNION), division, natural joins, left outer joins, outer unions, nested queries with joins, and nested aggregates—were systematically analyzed and optimized. The tuning process involved applying targeted indexing strategies (single-column and composite indexes), restructuring queries to replace costly constructs like NOT IN with more efficient LEFT JOIN ... IS NULL, and leveraging join-based approaches to simulate intersect operations where applicable. Each query’s execution plan was examined using the EXPLAIN statement before and after tuning, focusing on metrics such as the number of rows accessed, join type (ALL, ref, index), and the specific indexes employed (key). Index creation was validated with SHOW INDEX to ensure implementation correctness. The outcome is a demonstrable reduction in query complexity and improved execution efficiency, providing a clear methodology for applying query tuning principles in a real-world, relational database environment.
 
